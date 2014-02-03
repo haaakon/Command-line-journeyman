@@ -5,6 +5,7 @@ Just some useful commands you can do in the terminal
 
 ##### Table of Contents  
 * [chmod](#chmod)  
+* [curl](#curl)
 * [touch](#touch)
 
 
@@ -30,9 +31,9 @@ Downloads file at given URL and writes it to the command line.  [curl on Wikiped
 
 #####Example usage
 ```Shell
-curl https://github.com/haaakon/TerminalCommands/blob/master/README.md
+curl https://raw.github.com/haaakon/TerminalCommands/master/README.md
      Writes out all the content of this file you are reading now to the command line.
-curl -O https://github.com/haaakon/TerminalCommands/blob/master/README.md
+curl -O https://raw.github.com/haaakon/TerminalCommands/master/README.md
      Writes this this Readme file to a file named README.md on your current command line location 
 
 ```
