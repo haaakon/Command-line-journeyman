@@ -1,19 +1,12 @@
+#TerminalCommands
 Useful stuff you can do in the terminal
 
 ##### Table of Contents  
-* [Useful keyboard shortcuts](#Keyboard shortcuts)
 * [chmod](#chmod)  
 * [curl](#curl)
 * [touch](#touch)
+* [Useful keyboard shortcuts](#Keyboard shortcuts)
 
-
-## Keyboard shortcuts
-```
-CTRL-a     Sets cursor to start of line
-CTRL-k     Clears everything after cursor
-CTRL-u     Clears everything before and after cursor
-CTRL-l     'Resets' the terminal clearing all output
-```
 # Terminal Commands
 
 ## chmod
@@ -55,3 +48,11 @@ touch newfile.html
 ```
 __________
 
+
+## Keyboard shortcuts
+```
+CTRL-a     Sets cursor to start of line
+CTRL-k     Clears everything after cursor
+CTRL-u     Clears everything before and after cursor
+CTRL-l     'Resets' the terminal clearing all output
+```
