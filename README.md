@@ -1,7 +1,4 @@
-TerminalCommands
-================
-
-Just some useful stuff you can do in the terminal
+Useful stuff you can do in the terminal
 
 ##### Table of Contents  
 * [Useful keyboard shortcuts](#Keyboard shortcuts)
