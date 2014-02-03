@@ -12,8 +12,8 @@ Changes the attributes of a file.  [chmod on Wikipedia](http://en.wikipedia.org/
 
     -R        Recursively sets the attributes in all subdirectories as well
 #####Example usage
-```
->chmod 777 examplefile.file
+```Shell
+chmod 777 examplefile.file
     Lets all users and groups read and write to the file 'examplefile.file'
 ```
 __________
@@ -21,8 +21,8 @@ __________
 Creates a new file with the name you specify in the arguments. If run on an existing file it will reset the file`s created date. [touch on Wikipedia](http://en.wikipedia.org/wiki/Touch_(Unix))
 
 #####Example usage
-```
->touch newfile.html
+```Shell
+touch newfile.html
      creates an empty new file called 'newfile.html'
 
 ```
