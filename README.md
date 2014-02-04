@@ -55,4 +55,5 @@ CTRL-a     Sets cursor to start of line
 CTRL-k     Clears everything after cursor
 CTRL-u     Clears everything before and after cursor
 CTRL-l     'Resets' the terminal clearing all output
+CTRL-r     Search through history of everything you have written in command line
 ```
