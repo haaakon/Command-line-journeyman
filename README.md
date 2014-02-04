@@ -1,5 +1,5 @@
-#TerminalCommands
-Useful stuff you can do in the terminal
+#Command line journeyman
+Useful stuff you can do with the command line.
 
 ##### Table of Contents  
 * [chmod](#chmod)  
