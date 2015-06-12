@@ -10,17 +10,17 @@ Useful stuff you can do with the command line.
 # At a glance
 
 ```
-bg    - start a background job
-fg    - take background job to foreground    
-ls    - list files in directory                     ex: ls -l
-chmod - change attributes of a file                 ex: chmod test.swift 777
-cat   - show content of a file                      ex: cat hello.txt
-tail  - show last part of a file                    ex: tail test.log
-kill  - send a process a signal                     ex: kill INT 8133
-sudo  - run a command as root                       ex: sudo gem install
-grep  - search for a string in a file               ex: grep -i "saturn" planets.txt
-
-
+bg       - start a background job
+fg       - take background job to foreground    
+ls       - list files in directory                     ex: ls -l
+chmod    - change attributes of a file                 ex: chmod test.swift 777
+cat      - show content of a file                      ex: cat hello.txt
+tail     - show last part of a file                    ex: tail test.log
+kill     - send a process a signal                     ex: kill INT 8133
+sudo     - run a command as root                       ex: sudo gem install
+grep     - search for a string in a file               ex: grep -i "saturn" planets.txt
+ifconfig - view or config network interface            ex: ifconfig -a
+  
 ```
 
 ## chmod
@@ -47,23 +47,26 @@ $ grep -r "jupiter" *
 ## find
 Find files with filename (case insensitive)
 
+```
 $ find -iname "launchplan.swift"
+```
 
-## > redirect
-
+## redirect >
+send the output from a command to a file
 ```
 $ ls -l > files.txt
    set content of files.txt to be what is prited from ls
 ```
 
-## | pipe
+## pipe >
 Send output from one process as input to another process
 
 ```
 $ ps aux | grep Terminal.app
     shows you only the processes thats named Terminal.app
 ```
-__________
+
+
 ## curl
 Downloads file at given URL and writes it to the command line.  [curl on Wikipedia](http://en.wikipedia.org/wiki/CURL)
 
