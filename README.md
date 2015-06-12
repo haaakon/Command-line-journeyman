@@ -20,7 +20,7 @@ kill     - send a process a signal                     ex: kill INT 8133
 sudo     - run a command as root                       ex: sudo gem install
 grep     - search for a string in a file               ex: grep -i "saturn" planets.txt
 ifconfig - view or config network interface            ex: ifconfig -a
-  
+man      - print the manual of a command               ex: man find
 ```
 
 ## chmod
@@ -39,7 +39,7 @@ Search for a string in a file (case insensitive)
 
 ```
 $ grep -A 5 -i "blue dot" carl_sagan.txt
-    printing the matched line with 5 lines followin it
+    Printing the matched line with 5 lines following it
 $ grep -r "jupiter" *
     Search for a string "jupiter" in all files recursively
 ```
@@ -49,14 +49,14 @@ Find files with filename (case insensitive)
 
 ```
 $ find . -iname "launchplan.swift"
-    find the file launchplan.swift in the folder you are in 
+    Find the file launchplan.swift in the folder you are in 
 ```
 
 ## redirect >
 Send the output from a command to a file
 ```
 $ ls -l > files.txt
-   set content of files.txt to be what is prited from ls
+    Set content of files.txt to be what is prited from ls
 ```
 
 ## pipe |
@@ -64,9 +64,22 @@ Send output from one process as input to another process
 
 ```
 $ ps aux | grep Terminal.app
-    shows you only the processes thats named Terminal.app
+    Shows you only the processes thats named Terminal.app
 ```
 
+## man 
+print the manual of a command 
+```
+$ man find
+    Prints the usage of the command find
+```
+
+## tail
+prints the last lines of a file (10 by default)
+```
+$ tail -N 19 solar_system.log
+    Prints the 19 last lines in solar_sytem.log
+```
 
 ## curl
 Downloads file at given URL and writes it to the command line.  [curl on Wikipedia](http://en.wikipedia.org/wiki/CURL)
