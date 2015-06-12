@@ -48,11 +48,12 @@ $ grep -r "jupiter" *
 Find files with filename (case insensitive)
 
 ```
-$ find -iname "launchplan.swift"
+$ find . -iname "launchplan.swift"
+    find the file launchplan.swift in the folder you are in 
 ```
 
 ## redirect >
-send the output from a command to a file
+Send the output from a command to a file
 ```
 $ ls -l > files.txt
    set content of files.txt to be what is prited from ls
