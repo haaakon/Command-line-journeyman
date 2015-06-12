@@ -15,12 +15,15 @@ fg       - take background job to foreground
 ls       - list files in directory                     ex: ls -l
 chmod    - change attributes of a file                 ex: chmod test.swift 777
 cat      - show content of a file                      ex: cat hello.txt
+less     - show content a part at a time with scroll   ex: less hello.txt
 tail     - show last part of a file                    ex: tail test.log
 kill     - send a process a signal                     ex: kill INT 8133
 sudo     - run a command as root                       ex: sudo gem install
 grep     - search for a string in a file               ex: grep -i "saturn" planets.txt
 ifconfig - view or config network interface            ex: ifconfig -a
 man      - print the manual of a command               ex: man find
+uniq     - only show unique lines           
+wc       - word, line, character count                 ex:
 ```
 
 ## chmod
@@ -42,6 +45,7 @@ $ grep -A 5 -i "blue dot" carl_sagan.txt
     Printing the matched line with 5 lines following it
 $ grep -r "jupiter" *
     Search for a string "jupiter" in all files recursively
+
 ```
 
 ## find
@@ -94,6 +98,23 @@ curl https://raw.github.com/haaakon/TerminalCommands/master/README.md
      Writes out all the content of this file you are reading now to the command line.
 curl -O https://raw.github.com/haaakon/TerminalCommands/master/README.md
      Writes this this Readme file to a file named README.md on your current command line location 
+curl http://google.com | grep 
+```
+
+## wget
+Download file to save it to disk
+```
+wget http://google.com/robots.txt
+```
+
+## scp
+secure copy (remote files)
+```
+scp your_usernamen@remote.com:planets.txt /local/directory
+    copy remote file planets.txt to your directory
+scp planets.txt your_username@remote.com:/remote/directory
+    copy local file planets.txt to remote directory
+
 ```
 
 
