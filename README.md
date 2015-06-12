@@ -17,7 +17,7 @@ chmod    - change attributes of a file                 ex: chmod test.swift 777
 cat      - show content of a file                      ex: cat hello.txt
 less     - show content a part at a time with scroll   ex: less hello.txt
 tail     - show last part of a file                    ex: tail test.log
-kill     - send a process a signal                     ex: kill INT 8133
+kill     - send a process a signal                     ex: kill -INT 8133
 sudo     - run a command as root                       ex: sudo gem install
 grep     - search for a string in a file               ex: grep -i "saturn" planets.txt
 ifconfig - view or config network interface            ex: ifconfig -a
