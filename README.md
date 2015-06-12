@@ -29,7 +29,7 @@ Changes the attributes of a file.  [chmod on Wikipedia](http://en.wikipedia.org/
 ##### Most useful arguments
     -R         Recursively sets the attributes in all subdirectories as well
 ##### Example usage
-```Shell
+```
 chmod 777 examplefile.file
     Lets all users and groups read and write to the file 'examplefile.file'
 ```
@@ -37,14 +37,32 @@ chmod 777 examplefile.file
 ## grep
 Search for a string in a file (case insensitive)
 
-$ grep -A 3 -i "example" demo_text
-```Shell
+```
 $ grep -A 5 -i "blue dot" carl_sagan.txt
     printing the matched line with 5 lines followin it
 $ grep -r "jupiter" *
-    Search for a string in all files recursively
+    Search for a string "jupiter" in all files recursively
 ```
 
+## find
+Find files with filename (case insensitive)
+
+$ find -iname "launchplan.swift"
+
+## > redirect
+
+```
+$ ls -l > files.txt
+   set content of files.txt to be what is prited from ls
+```
+
+## | pipe
+Send output from one process as input to another process
+
+```
+$ ps aux | grep Terminal.app
+    shows you only the processes thats named Terminal.app
+```
 __________
 ## curl
 Downloads file at given URL and writes it to the command line.  [curl on Wikipedia](http://en.wikipedia.org/wiki/CURL)
@@ -59,8 +77,8 @@ curl https://raw.github.com/haaakon/TerminalCommands/master/README.md
      Writes out all the content of this file you are reading now to the command line.
 curl -O https://raw.github.com/haaakon/TerminalCommands/master/README.md
      Writes this this Readme file to a file named README.md on your current command line location 
-
 ```
+
 
 ## touch
 Creates a new file with the name you specify in the arguments. If run on an existing file it will reset the file`s created date. [touch on Wikipedia](http://en.wikipedia.org/wiki/Touch_(Unix))
@@ -71,7 +89,10 @@ touch newfile.html
      creates an empty new file called 'newfile.html'
 
 ```
-__________
+
+## ps 
+Display information about the processes that are running.
+
 
 
 ## Keyboard shortcuts
