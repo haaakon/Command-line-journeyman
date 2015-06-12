@@ -10,15 +10,16 @@ Useful stuff you can do with the command line.
 # At a glance
 
 ```
-bg - start a background job
-fg - take background job to foreground    
-ls - list files in directory                     ex: ls -l
-chmod - change attributes of a file              ex: chmod test.swift 777
-cat - show content of a file                     ex: cat hello.txt
-tail - show last part of a file                  ex: tail test.log
-kill - send a process a signal                   ex: kill INT 8133
-sudo - run a command as root                     ex: sudo gem install
-grep - search for a string in a file             ex: grep -i "the" demo_file.txt
+bg    - start a background job
+fg    - take background job to foreground    
+ls    - list files in directory                     ex: ls -l
+chmod - change attributes of a file                 ex: chmod test.swift 777
+cat   - show content of a file                      ex: cat hello.txt
+tail  - show last part of a file                    ex: tail test.log
+kill  - send a process a signal                     ex: kill INT 8133
+sudo  - run a command as root                       ex: sudo gem install
+grep  - search for a string in a file               ex: grep -i "saturn" planets.txt
+
 
 ```
 
@@ -32,6 +33,18 @@ Changes the attributes of a file.  [chmod on Wikipedia](http://en.wikipedia.org/
 chmod 777 examplefile.file
     Lets all users and groups read and write to the file 'examplefile.file'
 ```
+
+## grep
+Search for a string in a file (case insensitive)
+
+$ grep -A 3 -i "example" demo_text
+```Shell
+$ grep -A 5 -i "blue dot" carl_sagan.txt
+    printing the matched line with 5 lines followin it
+$ grep -r "jupiter" *
+    Search for a string in all files recursively
+```
+
 __________
 ## curl
 Downloads file at given URL and writes it to the command line.  [curl on Wikipedia](http://en.wikipedia.org/wiki/CURL)
