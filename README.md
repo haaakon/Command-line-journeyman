@@ -22,7 +22,7 @@ sudo     - run a command as root                       ex: sudo gem install
 grep     - search for a string in a file               ex: grep -i "saturn" planets.txt
 ifconfig - view or config network interface            ex: ifconfig -a
 man      - print the manual of a command               ex: man find
-uniq     - only show unique lines           
+uniq     - only show unique lines            
 wc       - word, line, character count                 ex:
 ```
 
