@@ -58,7 +58,7 @@ $ ls -l > files.txt
    set content of files.txt to be what is prited from ls
 ```
 
-## pipe >
+## pipe |
 Send output from one process as input to another process
 
 ```
